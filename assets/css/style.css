@@ -53,6 +53,9 @@
     color: #fe775a;
     background-color: #fff2ee;
 }
+.float_left{
+    float: left;
+}
 
 /* header */
 /* primo nav */
@@ -62,7 +65,6 @@ header nav:first-child{
     border-bottom: 1px solid #32495b;
 }
 .menu_sx, .menu_dx{
-    float: left;
     width: 50%;
 }
 .menu_sx{
@@ -72,24 +74,32 @@ header nav:first-child{
     width: 15px;
     filter: brightness(.5)
 }
-.menu_sx :nth-child(2):after{
-    content: "\25BE";
+#frec{
+    position: relative;
+    bottom: 6px;
+    font-weight: 800;
 }
-.menu_sx :nth-child(3)::after{
+#trat{
+    position: relative;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+#trattino{
     content: "";
     display: inline-block;
-    height: 20px;
+    height: 25px;
     width: 1px;
     background-color: #32495b;
-}
-.menu_sx span{
-    margin-right: 10px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .menu_dx{
     text-align: right;
     line-height: 100px;
 }
-.menu_dx img{
+.menu_dx > img{
     width: 20px;
     margin-right: 15px;
 }
@@ -99,23 +109,29 @@ header nav:nth-child(2){
     width: 100%;
     height: 100px;
 }
-.menu_sx2, .menu_dx2{
-    float: left;
-    width: 50%;
+.menu_sx2{
+    width: 40%;
+    line-height: 100px;
+}
+.menu_dx2{
+    width: 60%;
     line-height: 100px;
 }
 .menu_sx2 img{
     margin-top: 35px;
+}
+.frecc{
+    position: relative;
+    bottom: 6px;
+    font-weight: 800;
+    margin-left: 10px;
+
 }
 .menu_dx2{
     text-align: right;
 }
 .menu_dx2 span{
     margin-right: 10px;
-}
-.menu_dx2 span::after{
-    content: "\25BE";
-    margin-left: 10px;
 }
 
 /* parte centrale header */
@@ -128,7 +144,6 @@ header nav:nth-child(2){
     background-size: 1175px;
 }
 .scritte_header{
-    float: left;
     margin-top: 60px;
     width: 50%;
 }
@@ -155,3 +170,32 @@ header nav:nth-child(2){
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
 }
+
+
+/* main */
+/* sezione 1 */
+.sez_cubo{
+    position: relative;
+}
+.cubo{
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+.sez_cubo :nth-child(2){
+    padding-top: 250px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.sez_cubo :nth-child(3){
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+/* sezione 2 */
+/* sezione 3 */
