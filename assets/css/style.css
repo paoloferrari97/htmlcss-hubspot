@@ -74,6 +74,9 @@ header nav:first-child{
     width: 15px;
     filter: brightness(.5)
 }
+.menu_sx a{
+    text-decoration: none;
+}
 #frec{
     position: relative;
     bottom: 6px;
@@ -130,8 +133,9 @@ header nav:nth-child(2){
 .menu_dx2{
     text-align: right;
 }
-.menu_dx2 span{
+.menu_dx2 a{
     margin-right: 10px;
+    text-decoration: none;
 }
 
 /* parte centrale header */
