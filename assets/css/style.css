@@ -42,9 +42,13 @@
     background-color: #fe775a;
     color: white;
 }
-.pieno:hover{
+.pieno_azzurro_chiaro:hover{
     color: #fe775a;
     background-color: #f4f9fd;
+}
+.pieno_rosa:hover{
+    color: #fe775a;
+    background-color: #fff2ee;
 }
 
 /* header */
@@ -97,6 +101,9 @@ header nav:nth-child(2){
     width: 50%;
     line-height: 100px;
 }
+.menu_sx2 img{
+    margin-top: 35px;
+}
 .menu_dx2{
     text-align: right;
 }
@@ -113,11 +120,27 @@ header > div{
     height: 500px;
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+    background-size: contain;
+    background-position-x: 100%;
+    background-size: 1175px;
 }
 .scritte_header{
     float: left;
+    margin-top: 80px;
     width: 50%;
-    height: 66%;
+}
+.scritte_header :first-child{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.scritte_header :nth-child(2){
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.scritte_header :nth-child(4){
+    margin-top: 40px;
+}
+.scritte_header a{
+    margin-left: 0;
 }
