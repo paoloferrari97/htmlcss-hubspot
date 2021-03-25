@@ -4,3 +4,14 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* utility class */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
