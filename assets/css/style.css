@@ -384,3 +384,30 @@ header nav:nth-child(2){
 }
 
 /* sezione 3 */
+.sez_bianca_1{
+    width: 100%;
+    padding-top: 20x;
+}
+.sez_bianca_1 > div:first-child{
+    width: 30%;
+    padding: 45px;
+    line-height: 25px;
+    padding-left: 60px;
+}
+.sez_bianca_1 > div:nth-child(2){
+    width: 70%;
+    padding: 45px;
+    /* text-align: right; */
+}
+.sponsor > div{
+    width: 25%;
+    height: 50px;
+    position: relative;
+}
+.sponsor > div > img{
+    width: 110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
