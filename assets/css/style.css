@@ -38,6 +38,7 @@ body{
     padding: 15px;
     border: 1px solid #fe775a;
     color: #fe775a;
+    background-color: white;
 }
 .vuoto:hover{
     color: white;
@@ -89,10 +90,6 @@ header nav:first-child{
 }
 .menu_sx{
     line-height: 100px;
-}
-.menu_sx img{
-    width: 13px;
-    filter: brightness(.5)
 }
 .menu_sx a{
     text-decoration: none;
