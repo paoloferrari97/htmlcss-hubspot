@@ -5,6 +5,9 @@
     font-family: 'Montserrat', sans-serif;
     color: #32495b;
 }
+body{
+    min-width: 1200px;
+}
 
 /* utility class */
 .container{
