@@ -2,7 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
     color: #32495b;
 }
 body{
@@ -90,7 +91,7 @@ header nav:first-child{
     line-height: 100px;
 }
 .menu_sx img{
-    width: 15px;
+    width: 13px;
     filter: brightness(.5)
 }
 .menu_sx a{
@@ -120,9 +121,12 @@ header nav:first-child{
     text-align: right;
     line-height: 100px;
 }
-.menu_dx > img{
+.menu_dx > a > img{
     width: 20px;
     margin-right: 15px;
+}
+.menu_dx > a > img:hover{
+    width: 30px;
 }
 
 /* secondo nav */
