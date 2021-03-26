@@ -411,3 +411,33 @@ header nav:nth-child(2){
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.sez_bianca_2{
+    padding-bottom: 25px;
+}
+.sez_bianca_2 > div:first-child{
+    width: 46%;
+}
+.sez_bianca_2 > div > p{
+    margin: 50px 0;
+}
+.sez_bianca_2 > div > p:first-child{
+    font-size: 30px;
+    font-weight: 600;
+}
+.sez_bianca_2 > div > p:nth-child(2){
+    line-height: 25px;
+}
+.btn{
+    margin-left: 0;
+}
+.sez_bianca_2 > div:nth-child(2){
+    width: 54%;
+    position: relative;
+}
+.sez_bianca_2 > div:nth-child(2) > img{
+    width: 60%;
+    position: absolute;
+    right: 0;
+}
+
+/* footer */
