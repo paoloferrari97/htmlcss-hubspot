@@ -47,6 +47,19 @@
     background-color: #fe775a;
     color: white;
 }
+.pieno2{
+    padding: 10px 5px;
+    border: 1px solid white;
+    background-color: white;
+    color: #32495b;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 0;
+}
+.pieno2:hover{
+    background-color: #32495b;
+    color: white;
+}
 .pieno_azzurro_chiaro:hover{
     color: #fe775a;
     background-color: #f4f9fd;
@@ -441,3 +454,50 @@ header nav:nth-child(2){
 }
 
 /* footer */
+footer{
+    background-color: #32495b;
+    padding: 35px 0;
+}
+/* sezione 1 */
+footer div, footer ul, footer ul li{
+    color: white;
+}
+.sez_blu_1{
+    width: 100%;
+}
+.sez_blu_1 > div{
+    width: 25%;
+}
+footer ul{
+    line-height: 30px;
+}
+footer ul li{
+    list-style: none;
+    font-size: 15px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul span{
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 700;
+}
+footer ul :nth-child(2){
+    margin-top: 30px;
+}
+footer ul :nth-child(6){
+    margin-bottom: 20px;
+}
+.social{
+    padding-top: 20px;
+}
+.social > a{
+    padding-right: 25px;
+}
+
+/* sezione 2 */
+
+
+/* sezione 3 */
