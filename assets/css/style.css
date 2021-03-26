@@ -459,11 +459,12 @@ footer{
     padding: 35px 0;
 }
 /* sezione 1 */
-footer div, footer ul, footer ul li{
+footer div, footer ul, footer ul li, footer span{
     color: white;
 }
 .sez_blu_1{
     width: 100%;
+    padding-bottom: 70px;
 }
 .sez_blu_1 > div{
     width: 25%;
@@ -498,6 +499,12 @@ footer ul :nth-child(6){
 }
 
 /* sezione 2 */
-
+.sez_blu_2{
+    text-align: center;
+}
+.sez_blu_2 > span{
+    padding-right: 20px;
+    font-size: 15px;
+}
 
 /* sezione 3 */
