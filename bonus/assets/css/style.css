@@ -587,3 +587,34 @@ footer ul :nth-child(6){
 .chat:hover + .text_chat{
     display: block;
 }
+
+/* dropdown menu */
+/* english */
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 18px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  
+  .dropdown-content p {
+    color: #32495b;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content p:hover{
+      background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
