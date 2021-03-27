@@ -717,3 +717,53 @@ footer ul :nth-child(6){
 .mtb{
     border-top: 1px solid grey;
 }
+/* software */
+.dropdown5{
+    position: relative;
+}
+.dropdown-content5{
+    display: none;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    line-height: 20px;
+    width: 600px;
+    padding: 20px;
+}
+.dropdown-content5 p{
+    color: #32495b;
+    padding: 12px 16px;
+    text-align: left;
+}
+.dropdown-content5 p:first-child{
+    font-weight: 600;
+}
+.dropdown-content5 p:hover{
+    background-color: #f1f1f1
+}
+.dropdown5:hover .dropdown-content5{
+    display: block;
+}
+.bor_bot_s{
+    border-bottom: 1px solid #32495b;
+}
+.fulmine div:first-child, .stella div:first-child, .cuore div:first-child, .frecciagiu div:first-child{
+    width: 10%;
+}
+.fulmine > div > img, .stella > div > img, .cuore > div > img, .frecciagiu > div > img{
+    width: 100%;
+    padding-top: 20px;
+}
+.fulmine div:nth-child(2), .stella div:nth-child(2), .cuore div:nth-child(2), .frecciagiu div:nth-child(2){
+    width: 90%;
+    padding-left: 20px;
+}
+.btn_blu{
+    color: white;
+    background-color: #00bda5;
+    border-radius: 0.5rem;
+    padding: 8px 15px;
+}
