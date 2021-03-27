@@ -647,3 +647,73 @@ footer ul :nth-child(6){
 .dropdown2:hover .dropdown-content2{
     display: block;
 }
+/* partners */
+.dropdown3{
+    position: relative;
+}
+.dropdown-content3{
+    display: none;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    line-height: 20px;
+    width: 600px;
+    padding: 20px;
+}
+.dropdown-content3 p{
+    color: #32495b;
+    padding: 12px 16px;
+    text-align: left;
+}
+.dropdown-content3 p:first-child{
+    font-weight: 600;
+}
+.dropdown-content3 > div{
+    width: 50%;
+}
+.dropdown-content3 p:hover{
+    background-color: #f1f1f1
+}
+.dropdown3:hover .dropdown-content3{
+    display: block;
+}
+/* resources */
+.dropdown4{
+    position: relative;
+}
+.dropdown-content4{
+    display: none;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    line-height: 20px;
+    width: 800px;
+    padding: 20px;
+}
+.dropdown-content4 p{
+    color: #32495b;
+    padding: 12px 16px;
+    text-align: left;
+}
+.dropdown-content4 p:first-child{
+    font-weight: 600;
+}
+.dropdown-content4 > div{
+    width: calc(100%/3);
+    height: 150px;
+}
+.dropdown-content4 p:hover{
+    background-color: #f1f1f1
+}
+.dropdown4:hover .dropdown-content4{
+    display: block;
+}
+.mtb{
+    border-top: 1px solid grey;
+}
