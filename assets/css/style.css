@@ -2,11 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
     color: #32495b;
 }
-
 /* utility class */
 .container{
     width: 80%;
@@ -28,11 +26,11 @@
 }
 .bottone{
     border-radius: 5px;
+    padding: 15px;
     margin: 0 15px;
     text-decoration: none;
 }
 .vuoto{
-    padding: 15px;
     border: 1px solid #fe775a;
     color: #fe775a;
     background-color: white;
@@ -42,10 +40,21 @@
     background-color: #fe775a;
 }
 .pieno{
-    padding: 15px;
     border: 1px solid #fe775a;
     background-color: #fe775a;
     color: white;
+}
+.pieno_azzurro_chiaro:hover{
+    color: #fe775a;
+    background-color: #f4f9fd;
+}
+.pieno_rosa:hover{
+    color: #fe775a;
+    background-color: #fff2ee;
+}
+.pieno_bianco:hover{
+    color: #fe775a;
+    background-color: white;
 }
 .pieno2{
     padding: 10px 5px;
@@ -59,18 +68,6 @@
 .pieno2:hover{
     background-color: #32495b;
     color: #c9d4e0;
-}
-.pieno_azzurro_chiaro:hover{
-    color: #fe775a;
-    background-color: #f4f9fd;
-}
-.pieno_rosa:hover{
-    color: #fe775a;
-    background-color: #fff2ee;
-}
-.pieno_bianco:hover{
-    color: #fe775a;
-    background-color: white;
 }
 .float_left{
     float: left;
@@ -87,9 +84,7 @@
     text-align: center;
     display: inline-block;
 }
-
-/* header */
-/* primo nav */
+/* header */ /* primo nav */
 header nav:first-child{
     width: 100%;
     height: 100px;
@@ -98,7 +93,7 @@ header nav:first-child{
 .menu_sx, .menu_dx{
     width: 50%;
 }
-.menu_sx{
+.menu_sx, .menu_dx{
     line-height: 100px;
 }
 .menu_sx a{
@@ -126,27 +121,18 @@ header nav:first-child{
 }
 .menu_dx{
     text-align: right;
-    line-height: 100px;
 }
 .menu_dx > a > img{
     width: 20px;
     margin-right: 15px;
 }
-.menu_dx > a > img:hover{
-    width: 30px;
-}
-
 /* secondo nav */
 header nav:nth-child(2){
     width: 100%;
     height: 100px;
 }
-.menu_sx2{
-    width: 40%;
-    line-height: 100px;
-}
-.menu_dx2{
-    width: 60%;
+.menu_sx2, .menu_dx2{
+    width: 50%;
     line-height: 100px;
 }
 .menu_sx2 img{
@@ -163,13 +149,11 @@ header nav:nth-child(2){
     width: 10px;
     margin-left: 10px;
 }
-
 /* parte centrale header */
 .main_header {
     height: 500px;
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
-    background-size: contain;
     background-position-x: 100%;
     background-size: 1175px;
 }
@@ -192,7 +176,6 @@ header nav:nth-child(2){
 .scritte_header a{
     margin-left: 0;
 }
-
 /* barra azzurra */
 .barra_azzurra{
     width: 100%;
@@ -200,11 +183,7 @@ header nav:nth-child(2){
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
 }
-
-
-/* main */
-/* sezione 1 */
-/* sezione con il cubo */
+/* main */ /* sezione 1 */ /* sezione con il cubo */
 .sez_cubo{
     position: relative;
     width: 100%;
@@ -228,7 +207,6 @@ header nav:nth-child(2){
     margin-bottom: 50px;
     line-height: 25px;
 }
-
 /* free hubspot crm */
 .crm{
     width: 100%;
@@ -277,7 +255,6 @@ header nav:nth-child(2){
 .cerchio_s{
     margin-right: 40px;
 }
-
 /* colonne */
 .colonna3{
     width: calc(100%/3);
@@ -346,8 +323,6 @@ header nav:nth-child(2){
     display: block;
     margin-bottom: 5px;
 }
-
-
 /* sezione 2 */
 #sezione_blu{
     background: linear-gradient(90deg, #00A8B9 0%, #00BAA8 100%);
@@ -395,7 +370,6 @@ header nav:nth-child(2){
 .quad_3{
     border-top: 1px solid white;
 }
-
 /* sezione 3 */
 .sez_bianca_1{
     width: 100%;
@@ -451,7 +425,6 @@ header nav:nth-child(2){
     position: absolute;
     right: 0;
 }
-
 /* footer */
 footer{
     background-color: #32495b;
@@ -496,7 +469,6 @@ footer ul :nth-child(6){
 .social > a{
     padding-right: 25px;
 }
-
 /* sezione 2 */
 .sez_blu_2{
     text-align: center;
@@ -509,7 +481,6 @@ footer ul :nth-child(6){
     color: #c9d4e0;
     text-decoration: none;
 }
-
 /* sezione 3 */
 .sez_blu_3{
     width: 100%;
