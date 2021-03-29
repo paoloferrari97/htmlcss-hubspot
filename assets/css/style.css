@@ -442,8 +442,12 @@ footer ul :nth-child(6){
 footer > div > div > div:nth-child(4) > ul > div{
     padding-top: 20px;
 }
-footer > div > div > div:nth-child(4) > ul > div > a{
+footer > div > div > div:nth-child(4) > ul > div > a > i{
+    color: #c9d4e0;
     margin-right: 25px;
+}
+footer > div > div > div:nth-child(4) > ul > div > a > i:hover{
+    color: #71e6ee;
 }
 /* sezione 2 */
 footer > div > div:nth-child(2) > span{
