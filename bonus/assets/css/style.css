@@ -576,7 +576,7 @@ footer > div > div:nth-child(3) > div:nth-child(2) span a{
     padding: 12px 16px;
     text-align: left;
 }
-.dropdown-content2 p:first-child{
+.dropdown-content2 p:first-child, .dropdown-content3 p:first-child, .dropdown-content4 p:first-child, .dropdown-content5 p:first-child{
     font-weight: 600;
 }
 .dropdown-content2 > div{
@@ -587,9 +587,6 @@ footer > div > div:nth-child(3) > div:nth-child(2) span a{
     color: #32495b;
     padding: 12px 16px;
     text-align: left;
-}
-.dropdown-content3 p:first-child{
-    font-weight: 600;
 }
 .dropdown-content3 > div{
     width: 50%;
@@ -603,9 +600,6 @@ footer > div > div:nth-child(3) > div:nth-child(2) span a{
     padding: 12px 16px;
     text-align: left;
 }
-.dropdown-content4 p:first-child{
-    font-weight: 600;
-}
 .dropdown-content4 > div{
     width: calc(100%/3);
     height: 150px;
@@ -618,9 +612,6 @@ footer > div > div:nth-child(3) > div:nth-child(2) span a{
     color: #32495b;
     padding: 12px 16px;
     text-align: left;
-}
-.dropdown-content5 p:first-child{
-    font-weight: 600;
 }
 .bor_bot_s{
     border-bottom: 1px solid #32495b;
