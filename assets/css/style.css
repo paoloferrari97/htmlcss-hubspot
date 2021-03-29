@@ -75,14 +75,19 @@
 .cerchio{
     width: 20px;
     height: 20px;
-    line-height: 15px;
     padding: 3px;
     margin-right: 20px;
     border-radius: 50%;
+    line-height: 15px;
     background-color: #fe775a;
     color: white;
-    text-align: center;
     display: inline-block;
+}
+.line-height_25{
+    line-height: 25px;
+}
+.text-align_center{
+    text-align: center;
 }
 /* header */ /* primo nav */
 header nav:first-child{
@@ -168,7 +173,6 @@ header nav:nth-child(2){
 }
 .scritte_header :nth-child(2){
     margin-bottom: 40px;
-    line-height: 25px;
 }
 .scritte_header :nth-child(4){
     margin-top: 40px;
@@ -186,9 +190,8 @@ header nav:nth-child(2){
 /* main */ /* sezione 1 */ /* sezione con il cubo */
 .sez_cubo{
     position: relative;
-    width: 100%;
 }
-.cubo{
+.sez_cubo > img{
     width: 250px;
     position: absolute;
     left: 50%;
@@ -200,12 +203,9 @@ header nav:nth-child(2){
     margin-bottom: 40px;
     font-size: 28px;
     font-weight: 600;
-    text-align: center;
 }
 .sez_cubo :nth-child(3){
-    text-align: center;
     margin-bottom: 50px;
-    line-height: 25px;
 }
 /* free hubspot crm */
 .crm{
@@ -235,7 +235,6 @@ header nav:nth-child(2){
 }
 #hubspotcrm p:nth-child(2){
     margin-bottom: 25px;
-    line-height: 25px;
 }
 #hubspotcrm p:nth-child(3){
     margin-bottom: 30px;
@@ -259,7 +258,6 @@ header nav:nth-child(2){
 .colonna3{
     width: calc(100%/3);
     padding-top: 40px;
-    text-align: center;
     padding-bottom: 40px;
 }
 .card1{
@@ -301,7 +299,6 @@ header nav:nth-child(2){
     margin-bottom: 30px;
 }
 .int_col_1 :nth-child(3){
-    line-height: 25px;
     margin-bottom: 60px;
 }
 .int_col_2{
@@ -331,7 +328,6 @@ header nav:nth-child(2){
 }
 #sezione_blu > div > p{
     color: white;
-    text-align: center;
 }
 #sezione_blu > div > p:first-child{
     font-size: 28px;
@@ -348,7 +344,6 @@ header nav:nth-child(2){
 }
 #sezione_blu > div > div > div{
     width: 25%;
-    text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -378,7 +373,6 @@ header nav:nth-child(2){
 .sez_bianca_1 > div:first-child{
     width: 30%;
     padding: 45px;
-    line-height: 25px;
     padding-left: 60px;
 }
 .sez_bianca_1 > div:nth-child(2){
@@ -409,9 +403,6 @@ header nav:nth-child(2){
 .sez_bianca_2 > div > p:first-child{
     font-size: 30px;
     font-weight: 600;
-}
-.sez_bianca_2 > div > p:nth-child(2){
-    line-height: 25px;
 }
 .btn{
     margin-left: 0;
@@ -470,9 +461,6 @@ footer ul :nth-child(6){
     padding-right: 25px;
 }
 /* sezione 2 */
-.sez_blu_2{
-    text-align: center;
-}
 .sez_blu_2 > span{
     padding-right: 20px;
 }
