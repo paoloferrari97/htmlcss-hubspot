@@ -2,11 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
     color: #32495b;
 }
-
 /* utility class */
 .container{
     width: 80%;
@@ -28,11 +26,11 @@
 }
 .bottone{
     border-radius: 5px;
+    padding: 15px;
     margin: 0 15px;
     text-decoration: none;
 }
 .vuoto{
-    padding: 15px;
     border: 1px solid #fe775a;
     color: #fe775a;
     background-color: white;
@@ -42,10 +40,21 @@
     background-color: #fe775a;
 }
 .pieno{
-    padding: 15px;
     border: 1px solid #fe775a;
     background-color: #fe775a;
     color: white;
+}
+.pieno_azzurro_chiaro:hover{
+    color: #fe775a;
+    background-color: #f4f9fd;
+}
+.pieno_rosa:hover{
+    color: #fe775a;
+    background-color: #fff2ee;
+}
+.pieno_bianco:hover{
+    color: #fe775a;
+    background-color: white;
 }
 .pieno2{
     padding: 10px 5px;
@@ -60,36 +69,30 @@
     background-color: #32495b;
     color: #c9d4e0;
 }
-.pieno_azzurro_chiaro:hover{
-    color: #fe775a;
-    background-color: #f4f9fd;
-}
-.pieno_rosa:hover{
-    color: #fe775a;
-    background-color: #fff2ee;
-}
-.pieno_bianco:hover{
-    color: #fe775a;
-    background-color: white;
-}
 .float_left{
     float: left;
 }
 .cerchio{
     width: 20px;
     height: 20px;
-    line-height: 15px;
     padding: 3px;
     margin-right: 20px;
     border-radius: 50%;
+    line-height: 15px;
     background-color: #fe775a;
     color: white;
-    text-align: center;
     display: inline-block;
 }
-
-/* header */
-/* primo nav */
+.cerchio_s{
+    margin-right: 40px;
+}
+.line-height_25{
+    line-height: 25px;
+}
+.text-align_center{
+    text-align: center;
+}
+/* header */ /* primo nav */
 header nav:first-child{
     width: 100%;
     height: 100px;
@@ -98,7 +101,7 @@ header nav:first-child{
 .menu_sx, .menu_dx{
     width: 50%;
 }
-.menu_sx{
+.menu_sx, .menu_dx{
     line-height: 100px;
 }
 .menu_sx a{
@@ -126,27 +129,18 @@ header nav:first-child{
 }
 .menu_dx{
     text-align: right;
-    line-height: 100px;
 }
 .menu_dx > a > img{
     width: 20px;
     margin-right: 15px;
 }
-.menu_dx > a > img:hover{
-    width: 30px;
-}
-
 /* secondo nav */
 header nav:nth-child(2){
     width: 100%;
     height: 100px;
 }
-.menu_sx2{
-    width: 40%;
-    line-height: 100px;
-}
-.menu_dx2{
-    width: 60%;
+.menu_sx2, .menu_dx2{
+    width: 50%;
     line-height: 100px;
 }
 .menu_sx2 img{
@@ -163,13 +157,11 @@ header nav:nth-child(2){
     width: 10px;
     margin-left: 10px;
 }
-
 /* parte centrale header */
 .main_header {
     height: 500px;
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
-    background-size: contain;
     background-position-x: 100%;
     background-size: 1175px;
 }
@@ -184,7 +176,6 @@ header nav:nth-child(2){
 }
 .scritte_header :nth-child(2){
     margin-bottom: 40px;
-    line-height: 25px;
 }
 .scritte_header :nth-child(4){
     margin-top: 40px;
@@ -192,7 +183,6 @@ header nav:nth-child(2){
 .scritte_header a{
     margin-left: 0;
 }
-
 /* barra azzurra */
 .barra_azzurra{
     width: 100%;
@@ -200,16 +190,11 @@ header nav:nth-child(2){
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
 }
-
-
-/* main */
-/* sezione 1 */
-/* sezione con il cubo */
+/* main */ /* sezione 1 */ /* sezione con il cubo */
 .sez_cubo{
     position: relative;
-    width: 100%;
 }
-.cubo{
+.sez_cubo > img{
     width: 250px;
     position: absolute;
     left: 50%;
@@ -221,45 +206,37 @@ header nav:nth-child(2){
     margin-bottom: 40px;
     font-size: 28px;
     font-weight: 600;
-    text-align: center;
 }
 .sez_cubo :nth-child(3){
-    text-align: center;
     margin-bottom: 50px;
-    line-height: 25px;
 }
-
 /* free hubspot crm */
-.crm{
-    width: 100%;
-}
-.crm > div{
+.sezione_1 > div:nth-child(2) > div{
     border-radius: 0.5rem;
     width: 100%;
     background-color: white;
     padding: 50px 100px;
 }
-#book{
+.sezione_1 > div:nth-child(2) > div > div:first-child{
     width: 30%;
 }
-#book > div > img{
+.sezione_1 > div:nth-child(2) > div > div:first-child > div > img{
     width: 60%;
     margin-bottom: 40px;
 }
-#hubspotcrm{
+.sezione_1 > div:nth-child(2) > div > div:nth-child(2){
     width: 70%;
     height: 100%;
 }
-#hubspotcrm p:first-child{
+.sezione_1 > div:nth-child(2) > div > div:nth-child(2) p:first-child{
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-#hubspotcrm p:nth-child(2){
+.sezione_1 > div:nth-child(2) > div > div:nth-child(2) p:nth-child(2){
     margin-bottom: 25px;
-    line-height: 25px;
 }
-#hubspotcrm p:nth-child(3){
+.sezione_1 > div:nth-child(2) > div > div:nth-child(2) p:nth-child(3){
     margin-bottom: 30px;
     text-transform: uppercase;
     font-weight: 600;
@@ -274,44 +251,30 @@ header nav:nth-child(2){
     top: 50%;
     transform: translateY(-50%);
 }
-.cerchio_s{
-    margin-right: 40px;
-}
-
 /* colonne */
 .colonna3{
     width: calc(100%/3);
     padding-top: 40px;
-    text-align: center;
     padding-bottom: 40px;
 }
-.card1{
+.card1, .card2, .card3{
     border-radius: 0.5rem;
     background-color: white;
     width: calc(100%-30px);
-    margin-right: 30px;
     padding: 15px 30px;
     padding-bottom: 35px;
+}
+.card1{
+    margin-right: 30px;
 }
 .card2{
-    border-radius: 0.5rem;
-    background-color: white;
-    width: calc(100%-30px);
     margin-left: 15px;
     margin-right: 15px;
-    padding: 15px 30px;
-    padding-bottom: 35px;
 }
 .card3{
-    border-radius: 0.5rem;
-    background-color: white;
-    width: calc(100%-30px);
     margin-left: 30px;
-    padding: 15px 30px;
-    padding-bottom: 35px;
 }
 .int_col_1{
-    width: 100%;
     height: 60%;
 }
 .int_col_1 img{
@@ -324,7 +287,6 @@ header nav:nth-child(2){
     margin-bottom: 30px;
 }
 .int_col_1 :nth-child(3){
-    line-height: 25px;
     margin-bottom: 60px;
 }
 .int_col_2{
@@ -338,16 +300,14 @@ header nav:nth-child(2){
     margin-top: 30px;
     margin-bottom: 30px;
 }
-#pf{
+.colonna3 > div > div:nth-child(2) > p:nth-child(2){
     margin-bottom: 60px;
 }
-#pf span.cerchio_s{
+.colonna3 > div > div:nth-child(2) > p:nth-child(2) span.cerchio_s{
     text-align: left;
     display: block;
     margin-bottom: 5px;
 }
-
-
 /* sezione 2 */
 #sezione_blu{
     background: linear-gradient(90deg, #00A8B9 0%, #00BAA8 100%);
@@ -356,7 +316,6 @@ header nav:nth-child(2){
 }
 #sezione_blu > div > p{
     color: white;
-    text-align: center;
 }
 #sezione_blu > div > p:first-child{
     font-size: 28px;
@@ -373,7 +332,6 @@ header nav:nth-child(2){
 }
 #sezione_blu > div > div > div{
     width: 25%;
-    text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -387,15 +345,13 @@ header nav:nth-child(2){
 }
 .quad_1{
     border-left: 1px solid white;
-    border-right: 1px solid white;
 }
-.quad_2{
+.quad_2, .quad_1{
     border-right: 1px solid white;
 }
 .quad_3{
     border-top: 1px solid white;
 }
-
 /* sezione 3 */
 .sez_bianca_1{
     width: 100%;
@@ -404,20 +360,18 @@ header nav:nth-child(2){
 .sez_bianca_1 > div:first-child{
     width: 30%;
     padding: 45px;
-    line-height: 25px;
     padding-left: 60px;
 }
 .sez_bianca_1 > div:nth-child(2){
     width: 70%;
     padding: 45px;
-    /* text-align: right; */
 }
-.sponsor > div{
+.sez_bianca_1 > div:nth-child(2) > div{
     width: 25%;
     height: 50px;
     position: relative;
 }
-.sponsor > div > img{
+.sez_bianca_1 > div:nth-child(2) > div > img{
     width: 110px;
     position: absolute;
     top: 50%;
@@ -437,9 +391,6 @@ header nav:nth-child(2){
     font-size: 30px;
     font-weight: 600;
 }
-.sez_bianca_2 > div > p:nth-child(2){
-    line-height: 25px;
-}
 .btn{
     margin-left: 0;
 }
@@ -452,7 +403,6 @@ header nav:nth-child(2){
     position: absolute;
     right: 0;
 }
-
 /* footer */
 footer{
     background-color: #32495b;
@@ -462,17 +412,15 @@ footer{
 footer div, footer ul, footer ul li, footer span{
     color: white;
 }
-.sez_blu_1{
+footer > div > div:first-child{
     width: 100%;
     padding-bottom: 70px;
 }
-.sez_blu_1 > div{
+footer > div > div:first-child > div{
     width: 25%;
 }
 footer ul{
     line-height: 30px;
-}
-footer ul li{
     list-style: none;
     font-size: 15px;
 }
@@ -491,28 +439,27 @@ footer ul :nth-child(2){
 footer ul :nth-child(6){
     margin-bottom: 20px;
 }
-.social{
+footer > div > div > div:nth-child(4) > ul > div{
     padding-top: 20px;
 }
-.social > a{
+footer > div > div > div:nth-child(4) > ul > div > a > i{
+    color: #c9d4e0;
     padding-right: 25px;
 }
-
-/* sezione 2 */
-.sez_blu_2{
-    text-align: center;
+footer > div > div > div:nth-child(4) > ul > div > a > i:hover{
+    color: #71e6ee;
 }
-.sez_blu_2 > span{
+/* sezione 2 */
+footer > div > div:nth-child(2) > span{
     padding-right: 20px;
 }
-.sez_blu_2 > span > a{
+footer > div > div:nth-child(2) > span > a{
     font-size: 15px;
     color: #c9d4e0;
     text-decoration: none;
 }
-
 /* sezione 3 */
-.sez_blu_3{
+footer > div > div:nth-child(3){
     width: 100%;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -520,24 +467,23 @@ footer ul :nth-child(6){
     border-top: 1px solid #c9d4e0;
     color: #c9d4e0;
 }
-.sez_blu_3 > div{
+footer > div > div:nth-child(3) > div{
     width: 50%;
 }
-.sez_blu_3 > div > div > img{
+footer > div > div:nth-child(3) > div > div > img{
     filter: brightness(0.75);
     width: 120px;
 }
-.sez_blu_3_dx{
+footer > div > div:nth-child(3) > div:nth-child(2){
     text-align: right;
 }
-.sez_blu_3_dx span{
+footer > div > div:nth-child(3) > div:nth-child(2) span{
     margin-left: 30px;
 }
-.sez_blu_3_dx span a{
+footer > div > div:nth-child(3) > div:nth-child(2) span a{
     color: #c9d4e0;
     text-decoration: none;
 }
-
 /* chat */
 .chat{
     position: fixed;
@@ -750,14 +696,14 @@ footer ul :nth-child(6){
 .bor_bot_s{
     border-bottom: 1px solid #32495b;
 }
-.fulmine div:first-child, .stella div:first-child, .cuore div:first-child, .frecciagiu div:first-child{
+.fulmine div:first-child, .cerchicon div:first-child, .stella div:first-child, .cuore div:first-child, .frecciagiu div:first-child{
     width: 10%;
 }
-.fulmine > div > img, .stella > div > img, .cuore > div > img, .frecciagiu > div > img{
+.fulmine > div > img, .cerchicon > div > img, .stella > div > img, .cuore > div > img, .frecciagiu > div > img{
     width: 100%;
     padding-top: 20px;
 }
-.fulmine div:nth-child(2), .stella div:nth-child(2), .cuore div:nth-child(2), .frecciagiu div:nth-child(2){
+.fulmine div:nth-child(2), .cerchicon div:nth-child(2), .stella div:nth-child(2), .cuore div:nth-child(2), .frecciagiu div:nth-child(2){
     width: 90%;
     padding-left: 20px;
 }
